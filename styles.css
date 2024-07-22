@@ -6,13 +6,12 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: url('https://fonts.google.com/specimen/Work+Sans');
     line-height: 1.6;
     padding: 20px;
 }
 
 header {
-    
     background: hsl(0, 0%, 100%);
     color: #fff;
     padding: 10px 0;
