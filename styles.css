@@ -96,10 +96,16 @@
 }
 
 @media (min-width: 375px) {
-    body {
+    header{
         background-image:url('assets/images/background-pattern-mobile.svg');
         background-repeat:no-repeat;
         background-size:contain;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
@@ -130,11 +136,17 @@
     }
 }
 
-@media (min-width: 1080px) {
-    body {
+@media (min-width: 1440px) {
+    header{
         background-image:url('assets/images/background-pattern-desktop.svg');
         background-repeat:no-repeat;
         background-size:contain;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
