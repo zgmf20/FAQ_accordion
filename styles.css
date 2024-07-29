@@ -95,14 +95,49 @@
     display: none;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 375px) {
     body {
         background-image:url('assets/images/background-pattern-mobile.svg');
         background-repeat:no-repeat;
         background-size:contain;
         background-position:center;
         font-family: Arial, sans-serif;
-        background-color: var(--purple-900);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        padding: 16px;
+    }
+
+    .faq-card {
+        padding: 16px;
+    }
+
+    .faq-title {
+        font-size: 20px;
+    }
+
+    .faq-question {
+        font-size: 14px;
+    }
+
+    .faq-answer {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        background-image:url('assets/images/background-pattern-desktop.svg');
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
         display: flex;
