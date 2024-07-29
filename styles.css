@@ -100,6 +100,7 @@
         background-image:url('assets/images/background-pattern-mobile.svg');
         background-repeat:no-repeat;
         background-size:contain;
+        background-position-y: top;
         margin: 0;
         padding: 0;
     }
@@ -140,13 +141,13 @@
     header{
         background-image:url('assets/images/background-pattern-desktop.svg');
         background-repeat:no-repeat;
-        background-size:contain;
+        background-size:auto;
+        background-position-y: top;
         margin: 0;
         padding: 0;
     }
 
     body {
-        
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
