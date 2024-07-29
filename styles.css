@@ -100,7 +100,6 @@
         background-image:url('assets/images/background-pattern-mobile.svg');
         background-repeat:no-repeat;
         background-size:contain;
-        background-position:center;
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
@@ -131,12 +130,11 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1080px) {
     body {
         background-image:url('assets/images/background-pattern-desktop.svg');
         background-repeat:no-repeat;
         background-size:contain;
-        background-position:center;
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
