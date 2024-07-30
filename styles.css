@@ -72,13 +72,13 @@ body {
 .faq-icon-toggle {
     width: 20px;
     height: 20px;
-    background-image: url('asset/images/plus-icon.svg');
+    background-image: url('asset/images/background-pattern-desktop.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .faq-item.active .faq-icon-toggle {
-    background-image: url('asset/images/minus-icon.svg');
+    background-image: url('asset/images/background-pattern-mobile.svg');
 }
 
 .faq-answer {
