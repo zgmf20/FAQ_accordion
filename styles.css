@@ -16,6 +16,7 @@ body {
     background-color: var(--color-dark-purple);
     background-image: url('assets/images/background-pattern-desktop.svg');
     background-repeat: no-repeat;
+    background-position: top;
     margin: 20%;
     padding: 20%;
     display: flex;
@@ -81,13 +82,13 @@ footer {
 .faq-icon-toggle {
     width: 20px;
     height: 20px;
-    background-image: url('asset/images/background-pattern-desktop.svg');
+    background-image: url('asset/images/icon-plus.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .faq-item.active .faq-icon-toggle {
-    background-image: url('asset/images/background-pattern-mobile.svg');
+    background-image: url('asset/images/icon-minus.svg');
 }
 
 .faq-answer {
