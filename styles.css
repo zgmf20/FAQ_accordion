@@ -16,6 +16,7 @@ body {
     background-color: var(--color-dark-purple);
     background-image: url('assets/images/background-pattern-desktop.svg');
     background-repeat: no-repeat;
+    background-color: white;
     background-position: top;
     margin: 20%;
     padding: 20%;
@@ -23,16 +24,17 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    min-width: 100vh;
 }
 
 footer {
     font-family: Arial, sans-serif;
+    margin: 20%;
     bottom: 0;
     left: 0;
     height: 5%;
     background-color: white;
     width: 100%;
+    text-align: center;
 }
 
 .container {
