@@ -118,6 +118,24 @@ footer {
         font-size: 20px;
     }
 }
+
+@media (mix-width: 1440px) {
+    
+    body {
+        background-image: url('assets/images/background-pattern-desktop.svg');
+    }
+    .container {
+        padding: 10px;
+    }
+
+    .faq-card {
+        padding: 20px;
+    }
+
+    .faq-title {
+        font-size: 20px;
+    }
+}
 /*
 @media (min-width: 375px) {
     head{
