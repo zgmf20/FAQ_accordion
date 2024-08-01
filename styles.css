@@ -1,9 +1,10 @@
-/* Reset some basic elements */
+/* Reset some basic elements 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+*/
 :root {
     --color-purple: #AD1FEA;
     --color-dark-purple: #1E1E26;
@@ -18,8 +19,6 @@ body {
     background-repeat: no-repeat;
     background-color: white;
     background-position: top;
-    margin: 20%;
-    padding: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,9 +37,10 @@ footer {
 }
 
 .container {
+    height: 100%;
     width: 100%;
-    max-width: 600px;
-    padding: 20px;
+    max-width: 1440px;
+    padding: 10, 10;
 }
 
 .faq-card {
@@ -84,13 +84,11 @@ footer {
 .faq-icon-toggle {
     width: 20px;
     height: 20px;
-    background-image: url('asset/images/icon-plus.svg');
-    background-repeat: no-repeat;
-    background-position: center;
+
 }
 
 .faq-item.active .faq-icon-toggle {
-    background-image: url('asset/images/icon-minus.svg');
+    color: var(--color-purple);
 }
 
 .faq-answer {
