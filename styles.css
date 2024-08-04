@@ -27,6 +27,7 @@ body {
 }
 
 .faq-card {
+    max-width: 80%;
     background-color: var(--color-white);
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
