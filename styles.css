@@ -115,6 +115,10 @@ body {
     line-height: 1.6;
 }
 
+.footer{
+    text-align: center;
+}
+
 @media (max-width: 375px) {
     body {
         background-image: url('assets/images/background-pattern-mobile.svg');
