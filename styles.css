@@ -86,7 +86,7 @@ body {
     height: 20px;
     transition: transform 0.3s ease;
     position: absolute;
-    right: 0;
+    left: 0;
 }
 
 .icon-plus, .icon-minus {
@@ -137,7 +137,7 @@ body {
     .faq-icon-toggle {
         width: 16px;
         height: 16px;
-        right: 0; /* Adjust position for mobile view */
+        left: 0; /* Adjust position for mobile view */
     }
 }
 
@@ -147,6 +147,6 @@ body {
         height: 20px;
         transition: transform 0.3s ease;
         position: absolute;
-        right: 0;
+        left: 0;
     }
 }
