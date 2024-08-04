@@ -92,13 +92,13 @@ body {
     height: 20px;
     transition: transform 0.3s ease;
     position: absolute;
-    right: 10%;
+    right: 0;
 }
 
 .icon-plus, .icon-minus {
     opacity: 0;
     position: relative;
-    right: 10%;
+    right: 0;
     transition: opacity 0.3s ease;
 }
 
@@ -142,7 +142,7 @@ body {
         position: relative;
         width: 16px;
         height: 16px;
-        right: 10%; /* Adjust position for mobile view */
+        right: 0; /* Adjust position for mobile view */
     }
 }
 
@@ -152,6 +152,6 @@ body {
         height: 20px;
         transition: transform 0.3s ease;
         position: relative;
-        right: 10%;
+        right: 0;
     }
 }
