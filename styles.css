@@ -67,6 +67,8 @@ body {
     align-items: center;
     padding: 0;
     transition: color 0.3s ease;
+    position: relative;
+    padding-right: 40px; /* Adjust this if needed */
 }
 
 .keyboard-instruction {
@@ -79,8 +81,6 @@ body {
 .faq-question:hover,
 .faq-question:focus {
     color: var(--color-grayish-purple);
-    position: relative;
-    padding-right: 40px; /* Adjust this if needed */
 }
 
 .faq-icon-toggle {
