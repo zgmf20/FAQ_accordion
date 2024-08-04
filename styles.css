@@ -102,8 +102,8 @@ body {
     transition: opacity 0.3s ease;
 }
 
-.faq-question[aria-expanded="true"] .icon-plus {
-    opacity: 0;
+.faq-question[aria-expanded="false"] .icon-plus {
+    opacity: 1;
 }
 
 .faq-question[aria-expanded="true"] .icon-minus {
