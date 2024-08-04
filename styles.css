@@ -71,7 +71,7 @@ body {
     padding: 0;
     transition: color 0.3s ease;
     position: relative;
-    padding-right: 40px; /* Adjust this if needed */
+    padding-right: 0px; /* Adjust this if needed */
 }
 
 .keyboard-instruction {
@@ -87,7 +87,6 @@ body {
 }
 
 .faq-icon-toggle {
-    /*max-width: 600px;*/
     width: 20px;
     height: 20px;
     transition: transform 0.3s ease;
@@ -111,7 +110,6 @@ body {
 }
 
 .faq-answer {
-    /*max-width: 600px;*/
     margin-top: 16px;
     color: var(--color-grayish-purple);
     line-height: 1.6;
