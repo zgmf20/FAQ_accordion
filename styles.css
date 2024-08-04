@@ -79,6 +79,8 @@ body {
 .faq-question:hover,
 .faq-question:focus {
     color: var(--color-grayish-purple);
+    position: relative;
+    padding-right: 40px; /* Adjust this if needed */
 }
 
 .faq-icon-toggle {
