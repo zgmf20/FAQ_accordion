@@ -82,9 +82,11 @@ body {
 }
 
 .faq-icon-toggle {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     transition: transform 0.3s ease;
+    position: absolute;
+    right: 0;
 }
 
 .icon-plus, .icon-minus {
@@ -130,5 +132,21 @@ body {
 
     .faq-question {
         font-size: 16px;
+    }
+
+    .faq-icon-toggle {
+        width: 16px;
+        height: 16px;
+        right: 0; /* Adjust position for mobile view */
+    }
+}
+
+@media (min-width: 376px) and (max-width: 1440px) {
+    .faq-icon-toggle {
+        width: 20px;
+        height: 20px;
+        transition: transform 0.3s ease;
+        position: absolute;
+        right: 0;
     }
 }
