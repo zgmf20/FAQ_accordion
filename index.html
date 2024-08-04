@@ -6,9 +6,8 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | FAQ accordion</title>
-
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -23,42 +22,47 @@
               <img src="assets/images/icon-star.svg" sizes="32x32" alt="" class="faq-icon" />
               FAQs
           </h1>
-          <div class="faq-list">
-              <div class="faq-item active">
-                  <button class="faq-question">
-                      What is Frontend Mentor, and how will it help me?
-                      <span class="faq-icon-toggle" style="background-image: url('assets/images/icon-minus.svg'); width: 20px; height: 20px;"></span>
-                  </button>
-                  <div class="faq-answer">
+          <p class="keyboard-instruction">Use arrow keys to navigate, Enter or Space to toggle answers.</p>
+          <div class="faq-list" role="region" aria-label="Frequently Asked Questions">
+              <div class="faq-item">
+                <button id="question1" class="faq-question" aria-expanded="true" aria-controls="answer1">
+                    What is Frontend Mentor, and how will it help me?
+                    <img src="assets/images/icon-plus.svg" alt="Show answer" class="faq-icon-toggle icon-plus" hidden>
+                    <img src="assets/images/icon-minus.svg" alt="Hide answer" class="faq-icon-toggle icon-minus">
+                </button>
+                <div id="answer1" class="faq-answer" role="region" aria-labelledby="question1" hidden>
                       Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.
-                  </div>
+                </div>
               </div>
               <div class="faq-item">
-                <button class="faq-question">
+                <button id="question2" class="faq-question" aria-expanded="false" aria-controls="answer2">
                     Is Frontend Mentor free?
-                    <span class="faq-icon-toggle"></span>
+                    <img src="assets/images/icon-plus.svg" alt="Show answer" class="faq-icon-toggle icon-plus">
+                    <img src="assets/images/icon-minus.svg" alt="Hide answer" class="faq-icon-toggle icon-minus" hidden>
                 </button>
-                <div class="faq-answer">
+                <div id="answer2" class="faq-answer" role="region" aria-labelledby="question2" hidden>
                     <!-- Add answer here -->
                     Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.
                 </div>
             </div>
             <div class="faq-item">
-                <button class="faq-question">
+                <button id="question3" class="faq-question" aria-expanded="false" aria-controls="answer3">
                     Can I use Frontend Mentor projects in my portfolio?
-                    <span class="faq-icon-toggle"></span>
+                    <img src="assets/images/icon-plus.svg" alt="Show answer" class="faq-icon-toggle icon-plus">
+                    <img src="assets/images/icon-minus.svg" alt="Hide answer" class="faq-icon-toggle icon-minus" hidden>
                 </button>
-                <div class="faq-answer">
+                <div id="answer3" class="faq-answer" role="region" aria-labelledby="question3" hidden>
                     <!-- Add answer here -->
                     The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.
                 </div>
             </div>
             <div class="faq-item">
-                <button class="faq-question">
+                <button id="question4" class="faq-question" aria-expanded="false" aria-controls="answer4">
                     How can I get help if I'm stuck on a challenge?
-                    <span class="faq-icon-toggle"></span>
+                    <img src="assets/images/icon-plus.svg" alt="Show answer" class="faq-icon-toggle icon-plus">
+                    <img src="assets/images/icon-minus.svg" alt="Hide answer" class="faq-icon-toggle icon-minus" hidden>
                 </button>
-                <div class="faq-answer">
+                <div id="answer4" class="faq-answer" role="region" aria-labelledby="question4" hidden>
                     <!-- Add answer here -->
                     The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.
                 </div>
