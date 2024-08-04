@@ -27,7 +27,6 @@ body {
 }
 
 .faq-card {
-    max-width: 80%;
     background-color: var(--color-white);
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -89,16 +88,14 @@ body {
     height: 20px;
     transition: transform 0.3s ease;
     position: absolute;
+    right: 10%;
 }
 
 .icon-plus, .icon-minus {
-    position: relative;
-    right: 0;
-    transition: opacity 0.3s ease;
-}
-
-.icon-minus {
     opacity: 0;
+    position: absolute;
+    right: 10%;
+    transition: opacity 0.3s ease;
 }
 
 .faq-question[aria-expanded="true"] .icon-plus {
@@ -115,7 +112,7 @@ body {
     line-height: 1.6;
 }
 
-@media (mix-width: 375px) {
+@media (max-width: 375px) {
     body {
         background-image: url('assets/images/background-pattern-mobile.svg');
     }
@@ -139,6 +136,7 @@ body {
     .faq-icon-toggle {
         width: 16px;
         height: 16px;
+        right: 10%; /* Adjust position for mobile view */
     }
 }
 
@@ -148,5 +146,6 @@ body {
         height: 20px;
         transition: transform 0.3s ease;
         position: absolute;
+        right: 10%;
     }
 }
